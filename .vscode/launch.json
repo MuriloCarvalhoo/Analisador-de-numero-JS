@@ -1,0 +1,39 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/index.html",
+            "pathMappings": [
+                {
+                    "url": "file:///C:/Users/MURILO/Documents/GitHub/Meus_Trabalhos/Curso%20de%20WebMaster/Exercicios%20JS/Analisador%20de%20N%C3%BAmeros",
+                    "path": "${workspaceFolder}"
+                },
+                {
+                    "url": "file:///C:/Users/MURILO/Documents/GitHub/Meus_Trabalhos/Curso%20de%20WebMaster/Exercicios%20JS/Analisador%20de%20N%C3%BAmeros",
+                    "path": "${workspaceFolder}"
+                }
+            ]
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

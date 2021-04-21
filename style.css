@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 50px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+
+p{
+    display: inline;
+    padding: 70px;
+
+}
+
+input[type=submit]:nth-of-type(1){
+    display: inline;
+    padding: 5px;   
+}
+
+input[type=submit]:nth-of-type(2){
+    padding: 5px;
+    margin-left: 63%;
+    display: inline;   
+}
+
+
+select{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 20px auto;
+}
+
+div#res{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+input[type=submit]:nth-of-type(3){
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline;  
+    cursor: pointer;
+}
+
+
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}

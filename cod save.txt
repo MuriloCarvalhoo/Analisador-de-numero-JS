@@ -1,0 +1,31 @@
+var num = [parseInt(document.getElementById('txtn'))]
+var tab = document.getElementById('selTab')
+var res = document.getElementById('res')
+var valor = [Number(num.value)]
+valor.sort()
+
+
+function adicionar() {
+    if (num == 0 || num > 100) {
+        window.alert('Digite um valor entre 1 e 100')
+    } else {
+        let c = 1
+        while (c <= 1) {
+            var NumAdd = document.createElement('option')
+            NumAdd.text = `Valor ${valor} adicionado`
+            tab.appendChild(NumAdd)
+            c++
+        }        
+    }
+}
+var somar = num.reduce((somar, currentElement) => somar + currentElement) 
+
+function finalizar() {
+    
+    //res.innerHTML += `Ao todo, temos ${} números cadastrados.`+ '<br>'
+    //res.innerHTML += `O maior valor informado foi ${}`+ '<br>'
+    //res.innerHTML += `O menor valor informado foi ${}`+ '<br>'
+    res.innerHTML = `Somando todos os valores, temos ${somar}`+ '<br>'
+   // res.innerHTML = `A média dos valores digitados é ${}`+ '<br>'
+}
+
